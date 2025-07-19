@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAID MOHAMED ABDALLAH | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #007BFF;
+      --secondary-color: #00BCD4;
+      --bg-color: #f9f9f9;
+      --text-color: #333;
+      --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background-image: url(PRIVACY/ICT2.jpg);
+      background-size: cover;
+      color: #e0f7fa;
+      height: 350px;
+      text-shadow:6px 5px 1px rgb(34, 0, 255);
+      text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: var(--shadow);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header small {
+      font-size: 1rem;
+      display: block;
+      margin-top: 0.5rem;
+      opacity: 0.8;
+    }
+
+    .profile-img {
+      position: absolute;
+      top:20px ;
+      left: 15px;
+      width: 250px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 20%;
+      border: 4px solid white;
+      box-shadow: var(--shadow);
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      background: #e0f7fa;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: var(--primary-color);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: square inside;
+      padding-left: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #003c58;
+      color: white;
+      box-shadow: var(--shadow);
+    }
+
+    .contact p {
+      margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 800px) {
+          .profile-img {
+      width: 150px;
+      height: 170px;
+      position: relative;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      box-shadow: var(--shadow);
+      margin-bottom: 1rem;
+    }
+      header{background-image: url(PRIVACY/ICT.jpg);}
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="PRIVACY/said.jpg" alt="Said Mnubi" class="profile-img">
+    <h1>SAID MOHAMED ABDALLAH</h1>
+    <small>Said Mnubi</small>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m 21 years old, born and raised in Dosidosi village, Kiteto, Manyara-Tz. I studied at DOSIDOSI Primary and Secondary School, then Form Six at Mkongo High School in Rufiji, Pwani. I’m currently an undergraduate IT student at IFM, Posta Dar es Salaam.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <h4>Legendary Skills</h4>
+    <ul>
+      <li>Web Development & Design</li>
+      <li>Database Management (SQL)</li>
+      <li>Networking Systems</li>
+      <li>C, Python, Java Programming</li>
+    </ul>
+    <h4>Other Interests</h4>
+    <ul>
+      <li>System Analysis and Design (SAD)</li>
+      <li>Operating Systems (OS)</li>
+      <li>I am a Calculating Machine 🧠</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Online Ticket Management System (C)</li>
+      <li>Website for Wild Animals in Tanzania</li>
+      <li>Mabroky Family Website</li>
+      <li>My Family</li>
+      <li>Furniture Store Website</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>📞 Phone: 0653541738</p>
+    <p>📲 WhatsApp: 078083495</p>
+    <p>📧 Email: saidmbebed22@gmail.com</p>
+    <p>📸 Instagram: Said Ahmad</p>
+    <p>📘 Facebook: Said Mbebed Mnubi</p>
+    <p>💻 GitHub: MNUBI-MNUBI</p>
+    <p>🌐 Web: Said Mnubi</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SAID MOHAMED ABDALLAH - All Rights Reserved</p>
+  </footer>
+</body>
+</html>
