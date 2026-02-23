@@ -1,0 +1,15 @@
+.page {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+.header {
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+}
+.footer {
+  text-align: center;
+  font-size: 0.8em;
+  color: #555;
+}
